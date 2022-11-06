@@ -6,7 +6,6 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 自建春川, server: cc.yijiang.tk, port: 13148, type: vmess, uuid: 6e6b7b82-c600-4c92-ce28-8d3963e3401a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cc.yijiang.tk, network: ws, ws-opts: {path: /, headers: {Host: cc.yijiang.tk}}, udp: true}
-  - {name: 新加坡amd, server: xinamd.yijiang.tk, port: 13148, type: vmess, uuid: a7b2a063-14ce-4f50-86ff-eb4c34cb3983, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: xinamd.yijiang.tk, network: ws, ws-opts: {path: /, headers: {Host: xinamd.yijiang.tk}}, udp: true}
   - {name: 首尔arm2, server: tls.asrm1392518.gq, port: 443, type: trojan, password: db327ac5-0858-5f41-7bef-8bf4fe14ae5e, sni: tls.asrm1392518.gq, skip-cert-verify: true, udp: true}
   - {name: 圣何塞ARM, server: 2.yijiang.tk, port: 13148, type: vmess, uuid: e4b616c5-236b-446b-9682-c7d4401b36cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 2.yijiang.tk, network: ws, ws-opts: {path: /, headers: {Host: 2.yijiang.tk}}, udp: true}
   - {name: 圣何塞AMD2, server: shs.weisui.cf, port: 13145, type: vmess, uuid: 3f907c8a-9c9b-4f88-b2eb-eb9686352c53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: shs.weisui.cf, network: ws, ws-opts: {path: /qkuqvws, headers: {Host: shs.weisui.cf}}, udp: true}
@@ -19,7 +18,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 自建春川
-      - 新加坡amd
       - 首尔arm2
       - 圣何塞ARM
       - 圣何塞AMD2
@@ -32,7 +30,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 自建春川
-      - 新加坡amd
       - 首尔arm2
       - 圣何塞ARM
       - 圣何塞AMD2
@@ -45,7 +42,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 自建春川
-      - 新加坡amd
       - 首尔arm2
       - 圣何塞ARM
       - 圣何塞AMD2
@@ -57,7 +53,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 自建春川
-      - 新加坡amd
       - 首尔arm2
       - 圣何塞ARM
       - 圣何塞AMD2
@@ -69,7 +64,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - 自建春川
-      - 新加坡amd
       - 首尔arm2
       - 圣何塞ARM
       - 圣何塞AMD2
@@ -81,7 +75,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 自建春川
-      - 新加坡amd
       - 首尔arm2
       - 圣何塞ARM
       - 圣何塞AMD2
@@ -110,7 +103,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 自建春川
-      - 新加坡amd
       - 首尔arm2
       - 圣何塞ARM
       - 圣何塞AMD2
